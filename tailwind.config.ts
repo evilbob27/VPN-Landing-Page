@@ -9,6 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        slate: {
+          700: "#4F5665",
+          900: "#OB132A",
+        },
+        orange: {
+          100: "#F53838"
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
