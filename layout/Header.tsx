@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <>
             <header className="flex flex-row justify-between px-8 mx-auto max-w-[1440px] w-full py-[60px]">
                 <figure>
                     <Image src="/logo.svg" alt="logo" height={36} width={149}/>
@@ -36,7 +35,6 @@ const Header = () => {
                     </li>
                 </ul>
             </header>
-        </>
     );
 }
 
