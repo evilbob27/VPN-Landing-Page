@@ -10,11 +10,15 @@ export default {
     extend: {
       colors: {
         slate: {
+          100: "#EEEFF2",
           700: "#4F5665",
           900: "#OB132A",
         },
         orange: {
-          100: "#F53838"
+          100: "#FFECEC",
+        },
+        red: {
+          600: "#F53838",
         },
         background: "var(--background)",
         foreground: "var(--foreground)",
