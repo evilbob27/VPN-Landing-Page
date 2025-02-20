@@ -11,6 +11,7 @@ export default {
       colors: {
         slate: {
           100: "#EEEFF2",
+          200: "#DDDDDD",
           700: "#4F5665",
           900: "#OB132A",
         },

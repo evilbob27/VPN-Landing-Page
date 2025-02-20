@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="grid grid-cols-2 max-w-[1300px] mx-auto px-6 gap-16">
+        <section className="grid grid-cols-2 max-w-[1300px] mx-auto px-6 gap-16 bg-white">
             <article className=" flex flex-col my-auto">
                 <h1 className="text-5xl font-medium leading-[4.5rem] mb-8">
                     Want anything to be <br />

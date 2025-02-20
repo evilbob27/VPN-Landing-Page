@@ -23,7 +23,7 @@ const Header = () => {
                 <li className="text-center flex flex-col justify-center">
                     <Link href="#" className="font-semibold">Sign In</Link>
                 </li>
-                <li className="border border-red-600 rounded-3xl text-center flex flex-col justify-center px-10 py-2">
+                <li className="border border-red-600 rounded-3xl text-center flex flex-col justify-center px-12 py-2.5">
                     <Link href="#" className="text-red-600 font-semibold">Sign Up</Link>
                 </li>
             </ul>

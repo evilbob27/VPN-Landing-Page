@@ -41,3 +41,27 @@ export const infoBarItems = [
         name: "Servers",
     },
 ];
+
+export const plansItems = [
+    {
+        id: 1,
+        img: "/free.svg",
+        name: "Free Plan",
+        price: "Free",
+        list: ["Unlimited Bandwitch", "Encrypted Connection", "Traffic Logs", "Works on All Devices"]
+    },
+    {
+        id: 2,
+        img: "/standard.svg",
+        name: "Standard Plan",
+        price: "$9",
+        list: ["Unlimited Bandwitch", "Encrypted Connection", "Traffic Logs", "Works on All Devices", "Connect Anyware"]
+    },
+    {
+        id: 3,
+        img: "/premium.svg",
+        name: "Premium Plan",
+        price: "$12",
+        list: ["Unlimited Bandwitch", "Encrypted Connection", "Traffic Logs", "Works on All Devices", "Connect Anyware", "Get New Features"]
+    },
+];
