@@ -80,3 +80,31 @@ export const featuresItems = [
         feat: "No specific time limits",
     },
 ];
+
+export const sponsorsItems = [
+    {
+        img: "/netflix.svg",
+        height: 112,
+        width: 200,
+    },
+    {
+        img: "/reddit.svg",
+        height: 51,
+        width: 156,
+    },
+    {
+        img: "/amazon.svg",
+        height: 208,
+        width: 278,
+    },
+    {
+        img: "/discord.svg",
+        height: 64,
+        width: 187,
+    },
+    {
+        img: "/spotify.svg",
+        height: 51,
+        width: 171,
+    },
+]

@@ -10,6 +10,7 @@ export default {
         extend: {
             colors: {
                 slate: {
+                    50: "#DDE0E4",
                     100: "#EEEFF2",
                     200: "#DDDDDD",
                     700: "#4F5665",

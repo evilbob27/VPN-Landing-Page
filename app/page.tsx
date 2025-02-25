@@ -3,6 +3,7 @@ import Hero from "@/layout/Hero";
 import InfoBar from "@/layout/InfoBar";
 import Plans from "@/layout/Plans";
 import Features from "@/layout/Features";
+import Map from "@/layout/Map";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <InfoBar />
             <Features />
             <Plans />
+            <Map />
         </>
     );
 }
