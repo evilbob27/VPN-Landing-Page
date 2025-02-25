@@ -65,3 +65,18 @@ export const plansItems = [
         list: ["Unlimited Bandwitch", "Encrypted Connection", "Traffic Logs", "Works on All Devices", "Connect Anyware", "Get New Features"]
     },
 ];
+
+export const featuresItems = [
+    {
+        feat: "Powerfull online protection",
+    },
+    {
+        feat: "Internet without borders",
+    },
+    {
+        feat: "Supercharged VPN",
+    },
+    {
+        feat: "No specific time limits",
+    },
+];

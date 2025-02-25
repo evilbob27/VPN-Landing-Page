@@ -6,7 +6,7 @@ const Plans = () => {
         <section className="flex flex-col items-center mt-16 mb-16">
             <article className="flex flex-col items-center justify-center">
                 <h2 className="text-4xl font-medium py-8">Choose Your Plan</h2>
-                <p className="text-slate-700 text-center leading-8"> Let&apos;s choose the package that is best for you
+                <p className="text-slate-700 text-center leading-normal"> Let&apos;s choose the package that is best for you
                     and explore it happily and<br/>
                     cheerfully.</p>
             </article>
@@ -24,7 +24,7 @@ const Plans = () => {
                             {list.map((listItem, key) => (
                                 <li key={key} className="flex flex-row">
                                     <figure className="flex">
-                                        <Image src="/checkmark.svg" alt="checkmark" height={24} width={24}
+                                        <Image src="/green-check.svg" alt="checkmark" height={24} width={24}
                                                className="place-content-center"/>
                                     </figure>
                                     <p className="text-sm text-slate-700 my-3">{listItem}</p>
