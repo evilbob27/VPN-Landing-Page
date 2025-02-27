@@ -4,6 +4,7 @@ import InfoBar from "@/layout/InfoBar";
 import Plans from "@/layout/Plans";
 import Features from "@/layout/Features";
 import Map from "@/layout/Map";
+import Testimonials from "@/layout/Testimonials";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Features />
             <Plans />
             <Map />
+            <Testimonials />
         </>
     );
 }
