@@ -15,14 +15,14 @@ const Testimonials = () => {
                     pleasure when using this crazy feature.
                 </p>
             </article>
-            <Splide aria-label="My Favorite Images">
-                <SplideSlide>
-                    <img src="#" alt="Image 1"/>
-                </SplideSlide>
-                <SplideSlide>
-                    <img src="#" alt="Image 2"/>
-                </SplideSlide>
-            </Splide>
+            {/*<Splide aria-label="My Favorite Images">*/}
+            {/*    <SplideSlide>*/}
+            {/*        <img src="#" alt="Image 1"/>*/}
+            {/*    </SplideSlide>*/}
+            {/*    <SplideSlide>*/}
+            {/*        <img src="#" alt="Image 2"/>*/}
+            {/*    </SplideSlide>*/}
+            {/*</Splide>*/}
         </section>
     );
 }

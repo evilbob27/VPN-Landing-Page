@@ -5,6 +5,7 @@ import Plans from "@/layout/Plans";
 import Features from "@/layout/Features";
 import Map from "@/layout/Map";
 import Testimonials from "@/layout/Testimonials";
+import Subscribe from "@/layout/Subscribe";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Plans />
             <Map />
             <Testimonials />
+            <Subscribe />
         </>
     );
 }
