@@ -9,12 +9,19 @@ export default {
     theme: {
         extend: {
             colors: {
+                neutral: {
+                    100: "#F6F6F6",
+                },
                 slate: {
                     50: "#DDE0E4",
                     100: "#EEEFF2",
                     200: "#DDDDDD",
+                    300: "#AFB5C0",
                     700: "#4F5665",
                     900: "#OB132A",
+                },
+                gray: {
+                    200: "#F8F8F8",
                 },
                 orange: {
                     100: "#FFECEC",

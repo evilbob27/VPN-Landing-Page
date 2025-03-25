@@ -6,6 +6,7 @@ import Features from "@/layout/Features";
 import Map from "@/layout/Map";
 import Testimonials from "@/layout/Testimonials";
 import Subscribe from "@/layout/Subscribe";
+import Footer from "@/layout/Footer";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Map />
             <Testimonials />
             <Subscribe />
+            <Footer />
         </>
     );
 }

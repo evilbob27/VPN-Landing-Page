@@ -167,3 +167,39 @@ export const testimonialsItems = [
         quote: "\"lorem ipsum\"",
     },
 ]
+
+export const footerImages = [
+    {
+        img: "/facebook.svg",
+        height: 66,
+        width: 66,
+    },
+    {
+        img: "/twitter.svg",
+        height: 66,
+        width: 66,
+    },
+    {
+        img: "/instagram.svg",
+        height: 66,
+        width: 66,
+    },
+]
+
+export const footerItems = [
+    {
+        id: 1,
+        header: "Product",
+        list: ["Download", "Pricing", "Locations", "Server", "Countries", "Blog"]
+    },
+    {
+        id: 2,
+        header: "Engage",
+        list: ["LaslesVPN ?", "FAQ", "Tutorials", "About Us", "Privacy Policy", "Terms of Service"]
+    },
+    {
+        id: 3,
+        header: "Earn Money",
+        list: ["Affiliate", "Become Partner"]
+    },
+]
