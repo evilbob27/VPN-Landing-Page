@@ -3,7 +3,7 @@ import {featuresItems} from "@/data";
 
 const Features = () => {
     return (
-        <section className="flex flex-row items-center justify-around px-80 my-24 w-full">
+        <section className="flex flex-row items-center justify-around px-80 mt-24 mb-20 w-full">
             <figure>
                 <Image src="/features-illustration.svg" alt="Person on laptop extending left arm" height={415}
                        width={508}/>

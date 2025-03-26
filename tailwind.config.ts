@@ -10,6 +10,7 @@ export default {
         extend: {
             colors: {
                 neutral: {
+                    50:"#fcfcfc",
                     100: "#F6F6F6",
                 },
                 slate: {

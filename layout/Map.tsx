@@ -3,7 +3,7 @@ import {sponsorsItems} from "@/data";
 
 const Map = () => {
     return (
-        <section className="flex flex-col items-center px-80 my-24 w-full">
+        <section className="flex flex-col items-center px-80 my-24 w-full bg-neutral-50">
             <article>
                 <h2 className="font-medium text-4xl text-center leading-spaced mb-8">
                     Huge Global Network <br/>

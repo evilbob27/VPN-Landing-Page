@@ -4,7 +4,7 @@ import {Splide, SplideSlide} from "@splidejs/react-splide";
 
 const Testimonials = () => {
     return (
-        <section className="flex flex-col items-center px-80 w-full pb-44">
+        <section className="flex flex-col items-center px-80 w-full pb-44 bg-neutral-50">
             <article>
                 <h2 className="text-center leading-spaced text-4xl font-medium mb-8">
                     Trusted by Thousands of <br/>

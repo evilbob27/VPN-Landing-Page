@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Plans = () => {
     return (
-        <section className="flex flex-col items-center mt-16 mb-16">
+        <section className="flex flex-col items-center mt-10 mb-16 bg-neutral-50">
             <article className="flex flex-col items-center justify-center">
                 <h2 className="text-4xl font-medium py-8">Choose Your Plan</h2>
                 <p className="text-slate-700 text-center leading-normal"> Let&apos;s choose the package that is best for
@@ -14,7 +14,7 @@ const Plans = () => {
             <ul className="flex flex-row justify-around mx-80 mt-16">
                 {plansItems.map(({id, img, name, price, list}) => (
                     <a href="#" key={id}
-                       className="flex flex-col items-center justify-start border-2 border-slate-200 rounded-xl mx-6 w-[20.5rem] group hover:border-red-600">
+                       className="flex flex-col items-center justify-start bg-white border-2 border-slate-200 rounded-xl mx-6 w-[20.5rem] group hover:border-red-600">
                         <li className="flex flex-col flex-grow items-center justify-start">
                             <figure className="mt-20">
                                 <Image src={img} alt={name} height={165} width={145}/>
