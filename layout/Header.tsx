@@ -21,10 +21,10 @@ const Header = () => {
             </nav>
             <ul className="flex flex-row gap-8">
                 <li className="text-center flex flex-col justify-center">
-                    <Link href="#" className="font-semibold">Sign In</Link>
+                    <Link href="#" className="font-semibold hover:text-red-600">Sign In</Link>
                 </li>
-                <li className="border border-red-600 rounded-3xl text-center flex flex-col justify-center px-12 py-2.5">
-                    <Link href="#" className="text-red-600 font-semibold">Sign Up</Link>
+                <li className="border border-red-600 rounded-3xl text-center flex flex-col justify-center px-12 py-2.5 group hover:bg-red-600">
+                    <Link href="#" className="text-red-600 font-semibold group-hover:text-white">Sign Up</Link>
                 </li>
             </ul>
         </header>
